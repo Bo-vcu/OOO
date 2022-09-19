@@ -19,6 +19,7 @@ public class Shop {
         productTitles = new ArrayList<String>();
         productTypes = new ArrayList<String>();
         productIds = new ArrayList<String>();
+        cats = new ArrayList<String>();
     }
 
     public double getPrice(int productidx, int days) {
