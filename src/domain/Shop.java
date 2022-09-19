@@ -6,10 +6,7 @@ import javax.swing.JOptionPane;
 
 
 public class Shop {
-
-    //this is a test
-
-    private ArrayList<String> cats;
+    // TODO: 19/09/2022 laat klasse nog staan, later moet deze niet meer gebruikt worden, houd voor referentie
     private ArrayList<String> productTitles;
     private ArrayList<String> productTypes;
     private ArrayList<String> productIds;
@@ -19,7 +16,6 @@ public class Shop {
         productTitles = new ArrayList<String>();
         productTypes = new ArrayList<String>();
         productIds = new ArrayList<String>();
-        cats = new ArrayList<String>();
     }
 
     public double getPrice(int productidx, int days) {
