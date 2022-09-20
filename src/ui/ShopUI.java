@@ -8,11 +8,13 @@ import domain.Movie;
 import domain.Media;
 import domain.MediaBeheerSysteem;
 
+import java.util.HashMap;
+
 public class ShopUI {
 //SoftwareBeheerSysteem heeft een list van Media objecten (= abstracte klasse)
 //Game en Movie erven over van Media
 
-        private MediaBeheerSysteem beheer;
+        private final MediaBeheerSysteem beheer;
 
         public ShopUI(){
             beheer = new MediaBeheerSysteem();
@@ -40,12 +42,11 @@ public class ShopUI {
         }
 
         private String createKeuzeMenu(){
-            String keuze = "1. Registreer software.\n" +
+            return "1. Registreer software.\n" +
                     "2. Toon alle beschikbare software.\n" +
                     "3. Toon totale prijs van alle beschikbare software.\n" +
                     "\n" +
                     "0. Stop.";
-            return keuze;
         }
 
         private void dispatch(int keuze) throws IllegalArgumentException{
@@ -78,10 +79,10 @@ public class ShopUI {
                 switch (type) {
                     case "G":
                         //hier kunnen dingen voor de game worden gedaan
-                        media = new Game(naamSoftware,versieSoftware,Integer.parseInt(prijsMedia));
+                        media = new Game(naamSoftware,versieSoftware,Double.parseDouble(prijsMedia));
                         break;
                     case "M":
-                        media = new Movie(naamSoftware,versieSoftware,Integer.parseInt(prijsMedia));
+                        media = new Movie(naamSoftware,versieSoftware,Double.parseDouble(prijsMedia));
                         break;
                 }
                 beheer.voegToe(media);
@@ -92,12 +93,12 @@ public class ShopUI {
         }
 
         private void toonAlleBeschikbareMedia(){
-            String overzicht = beheer.getAll();
+            String overzicht = beheer.toString();
             JOptionPane.showMessageDialog(null, overzicht);
         }
 
         private void toonTotalePrijsAlleBeschikbareMedia(){
             double prijs = beheer.getTotaleWaardeBeschikbareSoftware();
-            JOptionPane.showMessageDialog(null, "Totale prijs van alle beschikbare software = " + prijs +"�");
+            JOptionPane.showMessageDialog(null, "Totale prijs van alle beschikbare software = €" + prijs);
         }
 }

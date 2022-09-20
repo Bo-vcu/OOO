@@ -1,0 +1,4 @@
+Game, Super Mario 3d World, 1.5, 59.99
+Movie, The Batman, 13, 6.5
+Game, Stray, 1.1, 17.99
+Movie, Your Name, 16, 9.99
