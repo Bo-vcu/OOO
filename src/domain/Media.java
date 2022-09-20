@@ -13,6 +13,10 @@ public abstract class Media {
         this.prijs=prijs;
     }
 
+    public double getPrijs() {
+        return prijs;
+    }
+
     @Override
     public String toString() {
         return naam+", "+versie+", "+prijs;
