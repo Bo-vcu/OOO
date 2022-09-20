@@ -15,6 +15,6 @@ public abstract class Media {
 
     @Override
     public String toString() {
-        return naam+" | "+versie+" | "+prijs;
+        return naam+", "+versie+", "+prijs;
     }
 }
