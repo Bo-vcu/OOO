@@ -17,7 +17,7 @@ public class MediaBeheerSysteem {
     }
     public void getAll(){
         try {
-            File myObject = new File("products.txt");
+            File myObject = new File("Shop/src/bestanden/products.txt");
             Scanner myScanner = new Scanner(myObject);
             while (myScanner.hasNextLine()){
                 String s= myScanner.nextLine();

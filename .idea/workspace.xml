@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaa9ec34-b8dc-4e17-8169-9d800a3a4b2b" name="Changes" comment="getAll functie is nu void ipv String">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Media.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/MediaBeheerSysteem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oef/ui/Launcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oef/ui/ShopUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Entry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Media.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/MediaBeheerSysteem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Shop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Launcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ShopUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml.jpg" beforeDir="false" />
+    <list default="true" id="a99d665a-5afc-4fa7-92bb-123d5af96cf6" name="Changes" comment="getAll functie is nu void ipv String">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop/products.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop/src/domain/MediaBeheerSysteem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shop/src/domain/MediaBeheerSysteem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +30,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Gert/projects/superfolder"
-  }
-}]]></component>
-  <component name="RunManager" selected="Application.Shop">
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\benja\IdeaProjects\fase2\labo1-refactoring\Shop\src" />
+      <recent name="C:\Users\benja\IdeaProjects\fase2\labo1-refactoring\Shop\bestanden" />
+      <recent name="C:\Users\benja\IdeaProjects\fase2\labo1-refactoring\Shop\src\domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="ui.Launcher" />
-      <module name="oef" />
+      <module name="Shop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ui.*" />
@@ -74,9 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Encoder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="domain.Shop" />
-      <module name="oef" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="domain.*" />
@@ -87,17 +81,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Launcher" />
+      <item itemvalue="Application.Shop" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Shop" />
         <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Shop" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aaa9ec34-b8dc-4e17-8169-9d800a3a4b2b" name="Changes" comment="" />
+      <changelist id="a99d665a-5afc-4fa7-92bb-123d5af96cf6" name="Changes" comment="" />
       <created>1663601699612</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -112,6 +112,8 @@
       <workItem from="1663927322259" duration="924000" />
       <workItem from="1663967993801" duration="37000" />
       <workItem from="1664204166037" duration="483000" />
+      <workItem from="1664206084404" duration="21000" />
+      <workItem from="1664206124869" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1663602610160</created>
@@ -199,6 +201,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
