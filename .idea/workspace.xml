@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aaa9ec34-b8dc-4e17-8169-9d800a3a4b2b" name="Changes" comment="getAll functie is nu void ipv String">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Media.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/MediaBeheerSysteem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oef/domain/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oef/ui/Launcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oef/ui/ShopUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Media.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/MediaBeheerSysteem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ShopUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uml.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ezc8xLp8F4hsBA1HGsU2eK1VY9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Gert/projects/superfolder"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Shop">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Launcher" />
+      <module name="oef" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="domain.Shop" />
+      <module name="oef" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Shop" />
+        <item itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aaa9ec34-b8dc-4e17-8169-9d800a3a4b2b" name="Changes" comment="" />
+      <created>1663601699612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663601699612</updated>
+      <workItem from="1663601700803" duration="1064000" />
+      <workItem from="1663614400035" duration="6866000" />
+      <workItem from="1663659454178" duration="10857000" />
+      <workItem from="1663750131733" duration="103000" />
+      <workItem from="1663750280903" duration="2958000" />
+      <workItem from="1663768957744" duration="309000" />
+      <workItem from="1663841161585" duration="1739000" />
+      <workItem from="1663927322259" duration="924000" />
+      <workItem from="1663967993801" duration="37000" />
+      <workItem from="1664204166037" duration="483000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1663602610160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663602610160</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1663602765955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663602765955</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1663614503177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663614503177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Heb veel klasses moeten maken voor de UI te laten werken. ZEKER NA KIJKEN!!!">
+      <created>1663625021161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663625021161</updated>
+    </task>
+    <task id="LOCAL-00005" summary="betere versie van UML">
+      <created>1663627049526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663627049526</updated>
+    </task>
+    <task id="LOCAL-00006" summary="kleine aanpassingen">
+      <created>1663627386663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663627386663</updated>
+    </task>
+    <task id="LOCAL-00007" summary="toString methode is veranderd">
+      <created>1663663864057</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663663864057</updated>
+    </task>
+    <task id="LOCAL-00008" summary="media heeft een getPrijs methode gekregen.&#10;functies van MediaBeheerSysteem zijn grotendeels compleet.">
+      <created>1663713454578</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663713454578</updated>
+    </task>
+    <task id="LOCAL-00009" summary="getPrijs methode 2 electric boogaloo">
+      <created>1663713543901</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663713543901</updated>
+    </task>
+    <task id="LOCAL-00010" summary="getAll functie is nu void ipv String">
+      <created>1663713635426</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663713635426</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="Heb veel klasses moeten maken voor de UI te laten werken. ZEKER NA KIJKEN!!!" />
+    <MESSAGE value="betere versie van UML" />
+    <MESSAGE value="kleine aanpassingen" />
+    <MESSAGE value="toString methode is veranderd" />
+    <MESSAGE value="media heeft een getPrijs methode gekregen.&#10;functies van MediaBeheerSysteem zijn grotendeels compleet." />
+    <MESSAGE value="getPrijs methode 2 electric boogaloo" />
+    <MESSAGE value="getAll functie is nu void ipv String" />
+    <option name="LAST_COMMIT_MESSAGE" value="getAll functie is nu void ipv String" />
+  </component>
+</project>
