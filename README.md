@@ -1,5 +1,4 @@
 # OOO
 balls
 
-bekijk de UML!!!
-staat ook op de discord
+project sturture is nu anders
