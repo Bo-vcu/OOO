@@ -1,5 +1,9 @@
 package ui;
 
+import domain.Caesar;
+import domain.CodeerContext;
+import domain.CodeerStrategy;
+import domain.Spiegeling;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
@@ -40,7 +44,7 @@ public class EncoderUI {
         resultaatLabel.setText(s);
     }
 
-    private Pane createNodeHierarchy() {
+    private VBox createNodeHierarchy() {
         clickHandler = new ClickHandler();
         Label tekstLabel = new Label("Typ tekst");
         tekst = new TextField();
@@ -72,9 +76,30 @@ public class EncoderUI {
             String resultaat = "Tekst; " + tekst.getText() + " gekozen algoritme; " + algoritme.getValue();
             if (e.getSource() == codeer) {
                 resultaat += " coderen";
+                CodeerContext codeerContext = new CodeerContext(tekst.getText());
+                CodeerStrategy cc = null;
+                switch (algoritme.getValue()){
+                    case"Caesar":
+                        cc = new Caesar();
+                        break;
+                    case"Reverse":
+                        cc = new Spiegeling();
+                        break;
+                }
+                resultaat += "\n" + cc.codeer(tekst.getText());
             } else {
                 if (e.getSource() == decodeer) {
                     resultaat += " decoderen";
+                    CodeerStrategy cc = null;
+                    switch (algoritme.getValue()){
+                        case"Caesar":
+                            cc = new Caesar();
+                            break;
+                        case"Reverse":
+                            cc = new Spiegeling();
+                            break;
+                    }
+                    resultaat += "\n" +  cc.decodeer(tekst.getText());
                 }
             }
             setResultaatLabel(resultaat);

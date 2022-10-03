@@ -1,9 +1,9 @@
 package domain;
 
-public class Caesar implements Methode {
+public class Caesar implements CodeerStrategy {
 
     @Override
-    public String encode(String s) {
+    public String codeer(String s) {
         StringBuilder result = new StringBuilder();
         for (char character : s.toCharArray()) {
             if (character != ' ') {
@@ -19,7 +19,7 @@ public class Caesar implements Methode {
     }
 
     @Override
-    public String decode(String s) {
+    public String decodeer(String s) {
         StringBuilder result = new StringBuilder();
         for (char character : s.toCharArray()) {
             if (character != ' ') {

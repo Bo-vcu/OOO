@@ -1,11 +1,8 @@
 package domain;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
-public class Spiegeling implements Methode{
+public class Spiegeling implements CodeerStrategy {
     @Override
-    public String encode(String s) {
+    public String codeer(String s) {
         String[] letters=s.split("");
         StringBuilder res= new StringBuilder();
 
@@ -15,7 +12,7 @@ public class Spiegeling implements Methode{
     }
 
     @Override
-    public String decode(String s) {
+    public String decodeer(String s) {
         String[] letters=s.split("");
         StringBuilder res= new StringBuilder();
 
