@@ -1,0 +1,4 @@
+-Game-
+ID: 1
+Title: Hollow knight
+Available: true
