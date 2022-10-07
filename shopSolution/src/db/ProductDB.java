@@ -36,6 +36,10 @@ public class ProductDB {
         }
     }
 
+    public void removeProduct(Product product){
+        products.remove(product);
+    }
+
     public Product getProductByID(int id) {
         for (Product p : products) {
             if (p.getId() == id) return p;

@@ -3,14 +3,13 @@ package domain;
 public abstract class Product {
     private final int id;
     private final String title;
-    private boolean available;
+    private int available;
 
     private RentPrice rentPrice;
 
     public Product(int id, String title) {
         this.id = id;
         this.title = title;
-        available = true;
     }
 
     public void setRentPrice(RentPrice rentPrice){
@@ -38,13 +37,24 @@ public abstract class Product {
                 "\nAvailable: " + available;
     }
 
-    public void setAvailable (boolean available) throws IllegalArgumentException {
-        if (this.available == available) {
-            String m = "Product is already set as ";
-            if (!available) m += "not ";
-            m += "available";
+    public void setAvailable (int state) throws IllegalArgumentException {
+        if (state>2) throw new IllegalArgumentException("choose valid state");
+        if (this.available == state) {
+            String m = "Product is already set as "+stateToString(state);
             throw new IllegalArgumentException(m);
         }
-        this.available = available;
+        this.available = state;
+    }
+
+    private String stateToString(int state) {
+        switch (state){
+            case 0:
+                return "available";
+            case 1:
+                return "rented";
+            case 2:
+                return "damaged";
+        }
+        return "error";
     }
 }

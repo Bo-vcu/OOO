@@ -1,4 +1,8 @@
--Game-
+-CD-
 ID: 1
-Title: Hollow Knight
-Available: false
+Title: a
+Available: 0
+-Game-
+ID: 2
+Title: a
+Available: 0

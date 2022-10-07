@@ -4,7 +4,6 @@ import db.ProductDB;
 import db.FileManager;
 
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Shop {
@@ -16,6 +15,9 @@ public class Shop {
 
     public void addProduct(String type, String title) throws IllegalArgumentException {
         db.addProduct(type, title);
+    }
+    public void removeProduct(String id){
+       db.removeProduct(db.getProductByID(Integer.parseInt(id)));
     }
 
     public String getProductByID(int id) {
@@ -35,6 +37,16 @@ public class Shop {
         return String.valueOf(s);
     }
 
+    public void getReturnState(int id, String state){
+        switch (state.toUpperCase()){
+            case "D":
+                setDamaged(id);
+                break;
+            case "N":
+                setAvailable(id);
+        }
+    }
+
     public void loadFile(String path) {
         FileManager.loadFile(path, db);
     }
@@ -47,7 +59,14 @@ public class Shop {
         return db.getProductByID(productID).getPrice(days);
     }
 
+    public void setAvailable(int id){
+        db.getProductByID(id).setAvailable(0);
+    }
     public void setRented(int id) {
-        db.getProductByID(id).setAvailable(false);
+        db.getProductByID(id).setAvailable(1);
+    }
+
+    public void setDamaged(int id){
+        db.getProductByID(id).setAvailable(2);
     }
 }

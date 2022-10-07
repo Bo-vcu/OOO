@@ -25,14 +25,24 @@ public class FileManager {
                 title = title.substring(7);
                 //Available
                 String av = scanner.nextLine();
-                boolean available = av.equals("Available: true");
-
+                int available = Integer.parseInt(av.substring(11,12));;
+                System.out.println(available);
                 //Try to make product
                 try {
                     db.addProduct(type, title);
-                    if (!available) {
-                        Product p = db.getProductByID(Integer.parseInt(id));
-                        p.setAvailable(false);
+                    switch (available){
+                        case 0:
+                            Product p = db.getProductByID(Integer.parseInt(id));
+                            p.setAvailable(0);
+                            break;
+                        case 1:
+                            Product a = db.getProductByID(Integer.parseInt(id));
+                            a.setAvailable(1);
+                            break;
+                        case 2:
+                            Product f = db.getProductByID(Integer.parseInt(id));
+                            f.setAvailable(2);
+                            break;
                     }
                 } catch (NumberFormatException nfe) {
                     System.out.println("Invalid ID in file!!");
