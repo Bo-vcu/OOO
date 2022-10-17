@@ -1,42 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a99d665a-5afc-4fa7-92bb-123d5af96cf6" name="Changes" comment="meeste werkt loadFile verliest de availabe, weet niet waarom">
+    <list default="true" id="a99d665a-5afc-4fa7-92bb-123d5af96cf6" name="Changes" comment="meeste van labo 3 en begin labo 4">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/db/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/db/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/db/ProductDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/db/ProductDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/domain/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/domain/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/domain/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/ui/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/ui/UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/products.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/db/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/db/ProductDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/CD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/HighQualityRentPrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/LowQualityRentPrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/ProductIDComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/ProductTitleComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/RentPrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/ui/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/ui/UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/products.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/db/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/db/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/db/ProductDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/db/ProductDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/HighQualityRentPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/priceState/HighQualityRentPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/LowQualityRentPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/priceState/LowQualityRentPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/RentPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/priceState/RentPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopSolution/src/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/ui/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_v1/src/Auditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank_v1/src/domain/Auditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_v1/src/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank_v1/src/domain/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_v1/src/Rekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank_v1/src/domain/Rekening.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_v1/src/RekeningLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank_v1/src/domain/RekeningLogger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -68,10 +40,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Gert/Desktop/school/fase 2/semester 1/ooo",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/Gert/projects/ooo",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -186,6 +159,7 @@
       <workItem from="1665135675019" duration="5525000" />
       <workItem from="1665232710088" duration="605000" />
       <workItem from="1665410183029" duration="6403000" />
+      <workItem from="1666016431119" duration="3099000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1663602610160</created>
@@ -278,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665140608158</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="meeste van labo 3 en begin labo 4">
+      <created>1666016797652</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016797652</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +288,8 @@
     <MESSAGE value="ui geïmplementeerd, werkt wel niet tho" />
     <MESSAGE value="oplossing shop toegevoegd&#10;voeg toe bij modules" />
     <MESSAGE value="meeste werkt loadFile verliest de availabe, weet niet waarom" />
-    <option name="LAST_COMMIT_MESSAGE" value="meeste werkt loadFile verliest de availabe, weet niet waarom" />
+    <MESSAGE value="meeste van labo 3 en begin labo 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="meeste van labo 3 en begin labo 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
