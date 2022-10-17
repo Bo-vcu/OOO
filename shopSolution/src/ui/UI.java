@@ -12,52 +12,13 @@ public class UI {
 		showMenu();
 	}
 
-//	public void showMenu() {
-//		String menu = ""+
-//				"1. Add product"+
-//				"\n2. Show product"+
-//				"\n3. Show rental price"+
-//				"\n4. All products"+
-//				"\n5. Set as rented"+
-//
-//				"\n\n0. Quit";
-//		String  choice = "";
-//		while (!choice.equals("0")) {
-//			choice = JOptionPane.showInputDialog(menu);
-//			if (choice == null || choice.isEmpty()) {
-//				break;
-//			} else {
-//				switch (choice) {
-//					case "1":
-//						addProduct();
-//						break;
-//					case "2":
-//						showProduct();
-//						break;
-//					case "3":
-//						showPrice();
-//						break;
-//					case "4":
-//						showAllProducts();
-//						break;
-//					case "5":
-//						setRented();
-//						break;
-//					default:
-//						menu = "Invalid option!\n" + menu;
-//				}
-//			}
-//		}
-//	}
-
 	public void showMenu() {
 		String menu = ""+
 				"1. Add product"+
-				"\n2. remove product"+
-				"\n3. rent product"+
-				"\n4. return product"+
-				"\n5. repair product"+
-				"\n6. show available items"+
+				"\n2. Show product"+
+				"\n3. Show rental price"+
+				"\n4. All products"+
+				"\n5. Set as rented"+
 
 				"\n\n0. Quit";
 		String  choice = "";
@@ -67,26 +28,17 @@ public class UI {
 				break;
 			} else {
 				switch (choice) {
-					case "1":
-						addProduct();
-						break;
-					case "2":
-						removeProduct();
-						break;
-					case "3":
-						setRented();
-						break;
-					case "4":
-						returnProduct();
-						break;
-					case "5":
-						repairProduct();
-						break;
-					case "6":
-						showAllProducts();
-						break;
-					default:
-						menu = "Invalid option!\n" + menu;
+					case "1": addProduct();
+					break;
+					case "2": showProduct();
+					break;
+					case "3": showPrice();
+					break;
+					case "4": showAllProducts();
+					break;
+					case "5": setRented();
+					break;
+					default : menu = "Invalid option!\n" + menu;
 				}
 			}
 		}
@@ -112,7 +64,7 @@ public class UI {
 
 	public void addProduct() {
 		String title = JOptionPane.showInputDialog("Enter the title:");
-		String type = JOptionPane.showInputDialog(
+		String type = JOptionPane.showInputDialog(""+
 				"Enter the type:"+
 				"\nC - CD"+
 				"\nG - Game"+
@@ -125,31 +77,32 @@ public class UI {
 		}
 	}
 
-	public void removeProduct(){
+	public void showAllProducts() {
+		String s = shop.getProductsInOrder();
+		JOptionPane.showMessageDialog(null, s);
+	}
+
+	public void showProduct() {
 		String idString = getID();
 		if (productExists(idString)) {
-			shop.removeProduct(idString);
+			int id = Integer.parseInt(idString);
+			JOptionPane.showMessageDialog(null, shop.getProductByID(id));
 		}
 	}
 
-	public void returnProduct(){
+	public void showPrice() {
 		String idString = getID();
 		if (productExists(idString)) {
-			String state = JOptionPane.showInputDialog(
-					"Enter the state:"+
-							"\nD - damaged"+
-							"\nN - not damaged");
-			shop.getReturnState(Integer.parseInt(idString),state);
+			int id = Integer.parseInt(idString);
+			String days = JOptionPane.showInputDialog(shop.getProductByID(id) + "\n\nEnter the number of days:");
+			if (days == null) return;
+			try {
+				JOptionPane.showMessageDialog(null, shop.getPrice(Integer.parseInt(days), id));
+			} catch (NumberFormatException e) {
+				JOptionPane.showMessageDialog(null, "Invalid number of days!");
+			}
 		}
 	}
-
-	public void repairProduct(){
-		String idString = getID();
-		if (productExists(idString)) {
-			shop.setAvailable(Integer.parseInt(idString));
-		}
-	}
-
 
 	private void setRented() {
 		String idString = getID();
@@ -162,32 +115,5 @@ public class UI {
 			}
 		}
 	}
-	public void showAllProducts() {
-		String s = shop.getProductsInOrder();
-		JOptionPane.showMessageDialog(null, s);
-	}
+
 }
-
-
-
-//	public void showProduct() {
-//		String idString = getID();
-//		if (productExists(idString)) {
-//			int id = Integer.parseInt(idString);
-//			JOptionPane.showMessageDialog(null, shop.getProductByID(id));
-//		}
-//	}
-//
-//	public void showPrice() {
-//		String idString = getID();
-//		if (productExists(idString)) {
-//			int id = Integer.parseInt(idString);
-//			String days = JOptionPane.showInputDialog(shop.getProductByID(id) + "\n\nEnter the number of days:");
-//			if (days == null) return;
-//			try {
-//				JOptionPane.showMessageDialog(null, shop.getPrice(Integer.parseInt(days), id));
-//			} catch (NumberFormatException e) {
-//				JOptionPane.showMessageDialog(null, "Invalid number of days!");
-//			}
-//		}
-//	}

@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a99d665a-5afc-4fa7-92bb-123d5af96cf6" name="Changes" comment="ui geïmplementeerd, werkt wel niet tho">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+    <list default="true" id="a99d665a-5afc-4fa7-92bb-123d5af96cf6" name="Changes" comment="meeste werkt loadFile verliest de availabe, weet niet waarom">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encoder/src/domain/Caesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encoder/src/domain/Caesar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encoder/src/domain/Methode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encoder/src/domain/CodeerStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encoder/src/domain/Spiegeling.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encoder/src/domain/Spiegeling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encoder/src/ui/EncoderUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encoder/src/ui/EncoderUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Encoder/ui/EncoderUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Encoder/ui/EncoderUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Encoder/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Encoder/ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/db/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/db/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/db/ProductDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/db/ProductDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/domain/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/domain/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/domain/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopSolution/ui/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopSolution/ui/UI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/db/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/db/ProductDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/CD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/HighQualityRentPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/LowQualityRentPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/ProductIDComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/ProductTitleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/RentPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/domain/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/ui/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/out/production/shopSolution/ui/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/products.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/db/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/db/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/db/ProductDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/db/ProductDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/HighQualityRentPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/priceState/HighQualityRentPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/LowQualityRentPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/priceState/LowQualityRentPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/RentPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/priceState/RentPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/domain/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/domain/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopSolution/src/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopSolution/src/ui/UI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +65,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Gert/Desktop/school/fase 2/semester 1/ooo",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\benja\IdeaProjects\fase2\labo1-refactoring\Shop\src" />
@@ -52,7 +81,20 @@
       <recent name="C:\Users\benja\IdeaProjects\fase2\labo1-refactoring\Shop\src\domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.App" />
+      <module name="shopSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -93,7 +135,7 @@
       <module name="Shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.*" />
+          <option name="PATTERN" value="domain.priceState.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +144,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.App" />
       <item itemvalue="Application.Launcher" />
       <item itemvalue="Application.Shop" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Shop" />
         <item itemvalue="Application.Launcher" />
@@ -137,6 +181,11 @@
       <workItem from="1664206124869" duration="997000" />
       <workItem from="1664629333905" duration="2126000" />
       <workItem from="1664806897692" duration="4305000" />
+      <workItem from="1664969282056" duration="324000" />
+      <workItem from="1665067548769" duration="613000" />
+      <workItem from="1665135675019" duration="5525000" />
+      <workItem from="1665232710088" duration="605000" />
+      <workItem from="1665410183029" duration="6403000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1663602610160</created>
@@ -215,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664534767695</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="oplossing shop toegevoegd&#10;voeg toe bij modules">
+      <created>1664970399392</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664970399392</updated>
+    </task>
+    <task id="LOCAL-00013" summary="meeste werkt loadFile verliest de availabe, weet niet waarom">
+      <created>1665140608158</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665140608158</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +294,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
@@ -243,7 +305,9 @@
     <MESSAGE value="getPrijs methode 2 electric boogaloo" />
     <MESSAGE value="getAll functie is nu void ipv String" />
     <MESSAGE value="ui geïmplementeerd, werkt wel niet tho" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui geïmplementeerd, werkt wel niet tho" />
+    <MESSAGE value="oplossing shop toegevoegd&#10;voeg toe bij modules" />
+    <MESSAGE value="meeste werkt loadFile verliest de availabe, weet niet waarom" />
+    <option name="LAST_COMMIT_MESSAGE" value="meeste werkt loadFile verliest de availabe, weet niet waarom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,6 @@
-package domain;
+package domain.priceState;
 
-public class LowQualityRentPrice implements RentPrice{
+public class LowQualityRentPrice implements RentPrice {
 
 
     @Override

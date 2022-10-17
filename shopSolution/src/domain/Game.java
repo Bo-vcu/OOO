@@ -1,5 +1,7 @@
 package domain;
 
+import domain.priceState.LowQualityRentPrice;
+
 public class Game extends Product{
 
     public Game(int id, String title) {

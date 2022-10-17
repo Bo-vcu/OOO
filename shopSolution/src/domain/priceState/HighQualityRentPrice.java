@@ -1,4 +1,4 @@
-package domain;
+package domain.priceState;
 
 public class HighQualityRentPrice implements RentPrice {
 

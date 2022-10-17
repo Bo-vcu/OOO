@@ -1,8 +1,8 @@
 -CD-
 ID: 1
 Title: a
-Available: 0
+Available: null
 -Game-
 ID: 2
 Title: a
-Available: 0
+Available: null

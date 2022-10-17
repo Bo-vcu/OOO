@@ -22,22 +22,14 @@ public class ProductDB {
         if (type == null || type.isEmpty()) throw new IllegalArgumentException("Invalid type!");
         int newID = products.size()+1;
         switch (type.toUpperCase()) {
-            case "M":
-                products.add(new Movie(newID, title));
-                break;
-            case "G":
-                products.add(new Game(newID, title));
-                break;
-            case "C":
-                products.add(new CD(newID, title));
-                break;
-            default:
-                throw new IllegalArgumentException("Invalid type!");
+            case "M": products.add(new Movie(newID, title));
+            break;
+            case "G": products.add(new Game(newID, title));
+            break;
+            case "C": products.add(new CD(newID, title));
+            break;
+            default : throw new IllegalArgumentException("Invalid type!");
         }
-    }
-
-    public void removeProduct(Product product){
-        products.remove(product);
     }
 
     public Product getProductByID(int id) {

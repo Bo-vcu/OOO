@@ -1,19 +1,44 @@
 package domain;
 
+import domain.priceState.RentPrice;
+import domain.productState.*;
+
 public abstract class Product {
     private final int id;
     private final String title;
-    private int available;
+    private ProductState uitlenen;
+    private ProductState terugbrengen;
+    private ProductState repareren;
+    private ProductState verwijderd;
+
+    private ProductState state=uitlenen;
 
     private RentPrice rentPrice;
 
     public Product(int id, String title) {
         this.id = id;
         this.title = title;
+
+        uitlenen = new Uitlenen(this);
+        terugbrengen = new Terugbrengen(this);
+        repareren = new Repareren(this);
+        verwijderd = new Verwijderd(this);
+    }
+
+    public ProductState getState() {
+        return state;
+    }
+
+    public void setState(ProductState state) {
+        this.state = state;
     }
 
     public void setRentPrice(RentPrice rentPrice){
         this.rentPrice = rentPrice;
+    }
+
+    public void uitlenen(){
+        state.uitlenen();
     }
 
     public int getRentPrice(int days){
@@ -30,31 +55,30 @@ public abstract class Product {
 
     public abstract double getPrice(int days);
 
+    public ProductState getUitlenen() {
+        return uitlenen;
+    }
+
+    public ProductState getTerugbrengen() {
+        return terugbrengen;
+    }
+
+    public ProductState getRepareren() {
+        return repareren;
+    }
+
+    public ProductState getVerwijderd() {
+        return verwijderd;
+    }
+
+    public RentPrice getRentPrice() {
+        return rentPrice;
+    }
+
     @Override
     public String toString() {
         return "ID: " + id +
                 "\nTitle: " + title +
-                "\nAvailable: " + available;
-    }
-
-    public void setAvailable (int state) throws IllegalArgumentException {
-        if (state>2) throw new IllegalArgumentException("choose valid state");
-        if (this.available == state) {
-            String m = "Product is already set as "+stateToString(state);
-            throw new IllegalArgumentException(m);
-        }
-        this.available = state;
-    }
-
-    private String stateToString(int state) {
-        switch (state){
-            case 0:
-                return "available";
-            case 1:
-                return "rented";
-            case 2:
-                return "damaged";
-        }
-        return "error";
+                "\nAvailable: " + state;
     }
 }
