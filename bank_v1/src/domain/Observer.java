@@ -1,5 +1,5 @@
 package domain;
 
 public interface Observer {
-    void update();
+    void update(Rekening rekening);
 }
