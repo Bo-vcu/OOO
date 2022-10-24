@@ -81,4 +81,20 @@ public abstract class Product {
                 "\nTitle: " + title +
                 "\nAvailable: " + state;
     }
+
+    public void setUitlenen(ProductState uitlenen) {
+        this.uitlenen = uitlenen;
+    }
+
+    public void setTerugbrengen(ProductState terugbrengen) {
+        this.terugbrengen = terugbrengen;
+    }
+
+    public void setRepareren(ProductState repareren) {
+        this.repareren = repareren;
+    }
+
+    public void setVerwijderd(ProductState verwijderd) {
+        this.verwijderd = verwijderd;
+    }
 }

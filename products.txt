@@ -1,8 +1,8 @@
--CD-
+-Game-
 ID: 1
 Title: a
-Available: null
+State: Available
 -Game-
 ID: 2
-Title: a
-Available: null
+Title: Hollow knight
+State: Rented

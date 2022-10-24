@@ -1,9 +1,9 @@
 package domain;
 
-import db.ProductDB;
 import db.FileManager;
+import db.ProductDB;
+import domain.states.StateContext;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -26,8 +26,7 @@ public class Shop {
 
     public String getProductsInOrder() {
         List<Product> allProducts = db.getProducts();
-        Collections.sort(allProducts,new ProductTitleComparator());
-        //Collections.sort(lijstProducten, (a, b) -> a.getNaam().compareToIgnoreCase(b.getNaam()));
+        allProducts.sort(Comparator.comparing(o -> o.getClass().getName()).reversed());
         StringBuilder s = new StringBuilder();
         for (Product p : allProducts) {
             s.append(p).append("\n\n");
@@ -47,7 +46,24 @@ public class Shop {
         return db.getProductByID(productID).getPrice(days);
     }
 
-    public void setRented(int parseInt) {
+    public void setRented(int id) {
+        db.getProductByID(id).rent();
+    }
 
+    public void setAvailable(int id) {
+        db.getProductByID(id).setAvailable();
+    }
+
+    public void setDamaged(int id) {
+        db.getProductByID(id).setDamaged();
+    }
+
+    public void fixDamage(int id) {
+        db.getProductByID(id).fixDamage();
+    }
+
+    public void remove(int id) {
+        db.getProductByID(id).setRemoved();
+        //db.removeProduct(id);
     }
 }

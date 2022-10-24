@@ -1,6 +1,7 @@
 package db;
 
 import domain.Product;
+import domain.states.ProductState;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -20,20 +21,19 @@ public class FileManager {
                 type = type.substring(1, 2); //Only first letter of Type
                 //ID
                 String id = scanner.nextLine();
+                id = id.substring(4);
                 //Title
                 String title = scanner.nextLine();
                 title = title.substring(7);
                 //Available
-                String av = scanner.nextLine();
-                boolean available = av.equals("Available: true");
+                String state = scanner.nextLine();
+                state = state.substring(7);
 
                 //Try to make product
                 try {
                     db.addProduct(type, title);
-                    if (!available) {
-                        Product p = db.getProductByID(Integer.parseInt(id));
-                        //p.setAvailable();
-                    }
+                    Product p = db.getProductByID(Integer.parseInt(id));
+                    p.setState(state);
                 } catch (NumberFormatException nfe) {
                     System.out.println("Invalid ID in file!!");
                 }
