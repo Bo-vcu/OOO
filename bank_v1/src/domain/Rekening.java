@@ -18,5 +18,6 @@ public class Rekening {
     }
 
     public void deposit(int amt) {
+        saldo += amt;
     }
 }

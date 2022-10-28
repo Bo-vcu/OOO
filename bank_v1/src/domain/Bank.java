@@ -1,9 +1,6 @@
 package domain;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Bank implements Subject {
 
@@ -35,7 +32,7 @@ public class Bank implements Subject {
 
     @Override
     public void removeObserver(Observer o) {
-
+        observers.remove(o);
     }
 
     @Override
@@ -54,7 +51,7 @@ public class Bank implements Subject {
         int acctnum = nextacct++;
 
         Rekening ba =
-
+            //TO DO
                 AccountFactory.createAccount(type, acctnum);
 
         accounts.put(acctnum, ba);
@@ -74,7 +71,5 @@ public class Bank implements Subject {
         notifyObservers(BankEvent.DEPOSIT, ba, amt);
 
     }
-
-//...
 
 }
