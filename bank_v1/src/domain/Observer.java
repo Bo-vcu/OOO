@@ -1,5 +1,6 @@
 package domain;
 
 public interface Observer {
-    void update(Rekening rekening);
+    void update(BankEvent e, Rekening ba, int depositamt);
+
 }

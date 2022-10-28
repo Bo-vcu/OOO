@@ -16,4 +16,7 @@ public class Rekening {
     public double getSaldo() {
         return saldo;
     }
+
+    public void deposit(int amt) {
+    }
 }
