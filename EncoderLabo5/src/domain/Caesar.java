@@ -1,7 +1,7 @@
 package domain;
 
 /**Concrete strategy class*/
-public class Caesar implements Cipher {
+public class Caesar implements CipherSolution {
     private final int offset;
 
     public Caesar(int offset) {

@@ -1,7 +1,7 @@
 package domain;
 
 /**Concrete strategy class*/
-public class Mirror implements Cipher {
+public class Mirror implements CipherSolution {
 
     public String code(String text) {
         return mirrorText(text);

@@ -1,9 +1,9 @@
 package domain;
 
-public class Morse implements Cipher {
+public class Morse implements CipherSolution {
     private final String[] morseCode
             = { ".-",   "-...", "-.-.", "-..",  ".",
-            "..-.", "--.",  "....", "StateSolution/Best_method",   ".---",
+            "..-.", "--.",  "....", "..",   ".---",
             "-.-",  ".-..", "--",   "-.",   "---",
             ".--.", "--.-", ".-.",  "...",  "-",
             "..-",  "...-", ".--",  "-..-", "-.--",

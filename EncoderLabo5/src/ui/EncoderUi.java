@@ -1,7 +1,7 @@
 package ui;
 
-import domain.Cipher;
-import domain.CodingContext;
+import domain.CipherSolution;
+import domain.CodingContextSolution;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -15,10 +15,10 @@ import javafx.stage.Stage;
 public class EncoderUi {
     private final TextArea input, output;
     private final ComboBox<String> comboBox;
-    private final CodingContext context;
+    private final CodingContextSolution context;
 
     public EncoderUi(Stage stage) {
-        context = new CodingContext();
+        context = new CodingContextSolution();
         VBox root = new VBox();
         Scene scene = new Scene(root);
         root.setAlignment(Pos.CENTER);
@@ -68,7 +68,7 @@ public class EncoderUi {
             String cijfer = comboBox.getValue();
             try {
                 Class<?> cijferClass = Class.forName("domain." + cijfer);
-                Cipher cijferObject = (Cipher) cijferClass.getConstructor().newInstance();
+                CipherSolution cijferObject = (CipherSolution) cijferClass.getConstructor().newInstance();
                 context.setCipher(cijferObject);
                 errorLabel.setVisible(false);
             } catch (Exception e) {
