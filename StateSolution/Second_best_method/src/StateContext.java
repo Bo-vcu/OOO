@@ -1,8 +1,8 @@
 public class StateContext {
-    private Product product;
+    private StateProduct product;
 
     public StateContext(){
-        product = new Product();
+        product = new StateProduct();
     }
 
     public void rent() {
