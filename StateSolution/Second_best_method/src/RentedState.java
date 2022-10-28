@@ -1,7 +1,7 @@
 public class RentedState extends StateContext {
-    private Product p;
+    private StateProduct p;
 
-    public RentedState(Product product){
+    public RentedState(StateProduct product){
         this.p = product;
     }
 

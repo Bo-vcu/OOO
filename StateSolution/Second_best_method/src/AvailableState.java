@@ -1,8 +1,8 @@
 public class AvailableState extends StateContext {
 
-    private Product p;
+    private StateProduct p;
 
-    public AvailableState(Product product){
+    public AvailableState(StateProduct product){
         this.p = product;
     }
 

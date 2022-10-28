@@ -1,11 +1,11 @@
-public class Product {
+public class StateProduct {
 
     private StateContext rentedState;
     private StateContext availableState;
 
     private StateContext state;
 
-    public Product(){
+    public StateProduct(){
         rentedState = new RentedState(this);
         availableState = new AvailableState(this);
     }
