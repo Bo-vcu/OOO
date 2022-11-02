@@ -2,10 +2,10 @@ package domain;
 
 /**Context class*/
 public class CodingContext {
-    private CipherSolution cipher;
+    private Cipher cipher;
 
     /**Behaviour is interchangeable at runtime*/
-    public void setCipher(CipherSolution cipher) {
+    public void setCipher(Cipher cipher) {
         this.cipher = cipher;
     }
 

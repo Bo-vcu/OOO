@@ -1,7 +1,8 @@
 package ui;
 
-import domain.CipherSolution;
-import domain.CodingContextSolution;
+import domain.Cipher;
+import domain.CodingContext;
+import domain.CodingContext;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -15,10 +16,10 @@ import javafx.stage.Stage;
 public class EncoderUi {
     private final TextArea input, output;
     private final ComboBox<String> comboBox;
-    private final CodingContextSolution context;
+    private final CodingContext context;
 
     public EncoderUi(Stage stage) {
-        context = new CodingContextSolution();
+        context = new CodingContext();
         VBox root = new VBox();
         Scene scene = new Scene(root);
         root.setAlignment(Pos.CENTER);
@@ -33,7 +34,7 @@ public class EncoderUi {
         root.getChildren().add(input);
 
         comboBox = new ComboBox<>();
-        comboBox.getItems().addAll("Caesar", "Mirror", "Morse");
+        comboBox.getItems().addAll("Caesar", "Mirror", "Morse","RandomCypher");
         comboBox.setPromptText("Choose a cipher");
         root.getChildren().add(comboBox);
 
@@ -68,7 +69,7 @@ public class EncoderUi {
             String cijfer = comboBox.getValue();
             try {
                 Class<?> cijferClass = Class.forName("domain." + cijfer);
-                CipherSolution cijferObject = (CipherSolution) cijferClass.getConstructor().newInstance();
+                Cipher cijferObject = (Cipher) cijferClass.getConstructor().newInstance();
                 context.setCipher(cijferObject);
                 errorLabel.setVisible(false);
             } catch (Exception e) {
