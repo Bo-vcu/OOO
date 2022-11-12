@@ -34,7 +34,7 @@ public class EncoderUi {
         root.getChildren().add(input);
 
         comboBox = new ComboBox<>();
-        comboBox.getItems().addAll("Caesar", "Mirror", "Morse","RandomCypher");
+        comboBox.getItems().addAll("Caesar", "Mirror", "Morse","CipherAdapter");
         comboBox.setPromptText("Choose a cipher");
         root.getChildren().add(comboBox);
 
