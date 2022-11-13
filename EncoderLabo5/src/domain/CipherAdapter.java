@@ -13,11 +13,23 @@ public class CipherAdapter implements Cipher {
 
     @Override
     public String code(String text) {
-        return Arrays.toString(rcipher.encypher(text.toCharArray()));
+        char[] secret=rcipher.encypher(text.toCharArray());
+        System.out.println(secret);
+        StringBuilder res= new StringBuilder();
+        for (char c:secret){
+            res.append(c);
+        }
+        return res.toString();
     }
 
     @Override
     public String decode(String secret) {
-        return Arrays.toString(rcipher.decypher(secret.toCharArray()));
+        char[] text=rcipher.decypher(secret.toCharArray());
+        System.out.println(text);
+        StringBuilder res= new StringBuilder();
+        for (char c:text){
+            res.append(c);
+        }
+        return res.toString();
     }
 }

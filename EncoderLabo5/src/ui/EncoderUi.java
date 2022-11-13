@@ -2,7 +2,6 @@ package ui;
 
 import domain.Cipher;
 import domain.CodingContext;
-import domain.CodingContext;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
